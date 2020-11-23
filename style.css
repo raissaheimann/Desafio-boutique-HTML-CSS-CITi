@@ -1,0 +1,162 @@
+html{
+    font-family: 'Playfair Display', serif;
+    color: #E7E9E6;
+}
+
+/*h1, h2{
+    font-weight: bolder;
+}*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#first{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/inicio.png);
+    background-size: 110%;
+    background-position-y: -50px;
+
+    padding: 90px 50px ;
+
+    justify-content: space-between;
+
+}
+
+#first  div span{
+    font-size: 30px;
+    height: 30px;
+    color:#fff;
+
+}
+
+#first  div span + span{
+    margin-left: 40px;
+}
+
+#first  div hr{
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 15px;
+}
+
+#first #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#first #container #sub{
+    margin-right: 40px;
+}
+
+#first #container #sub h1 {
+    color: #fff;
+
+    font-size: 90px;
+}
+
+
+#menu span a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+
+
+
+
+
+#primeiraparte{
+    background-image: url(/imagens/inicio.png);
+    background-position: absolute;
+    background-size: 100%;
+    margin-block-end: 100px;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+.caixaintensifique{
+    font-size: 50px;
+    font-weight: 450;
+    margin-left: 1000px;
+}
+
+.menu{
+    font-size: 30px;
+    color: #E7E9E6;
+}
+
+#parte2{
+    background-color: #35363A;
+    color:  #35363A;
+    font-size: 40px;
+    font-weight: 500;
+    align-items: center; 
+}
+
+#parte3{
+    background-color: #B7AB9D;
+    color: #35363A;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p1{
+    color: #B7AB9D;
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
+    width: 6em
+}
+
+.section1, .section2, .section3{
+    background-color: #E7E9E6;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+p8, p9, p10{
+    display: inline-block;
+}
+
+.comprar{
+    background-color: #B7AB9D;
+    color: #35363A;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.todassection{
+    text-align: center;
+}
+
+.phone{
+    margin-left: 80%;
+    margin-top: -150px;
+}
+
+#parte4{
+    background-color: #E7E9E6;
+    margin-top: 60px;
+}
+
+p4{
+    margin-left: 68%;
+}
